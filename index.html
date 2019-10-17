@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8"> <!-- Tag para entender caracteres s/ uso de ASC ...-->
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="shortcut icon" href="https://i.imgur.com/Umfaiej.png" />
+    <title>Stranger Tetris</title>
+
+</head>
+<body>
+<div class="wrapper-game">
+        <div class="box stranger">
+            <img src="https://i.imgur.com/HaQBJ27.png" alt="StrangerTetris" id="logo">
+             <audio src="music.mp3" loop="loop" autoplay="autoplay"></audio>
+        </div>
+       
+        <div class="box timerum">
+            <p>Tempo de jogo</p>
+            <span id="minuto">00m</span><span id="segundo">00s</span><br>
+            <p>Nível Atual</p>
+            <p id="nivel">1</p>
+            <p>Linhas apagadas</p>
+            <p id="linhas">0</p>
+            <!--<input type="button" value="Volta" onclick="volta();"><br>
+            <div id="parar"><input type="button" value="Parar" onclick="parar();"></div>
+            <div id="comeca" style="display:none;"><input type="button" value="Comeca" onclick="tempo(1);"><br></div>
+            <input type="button" value="Limpa" onclick="limpa();"><br><br>
+            <div id="voltas"></div>-->
+            <p>Próxima peça</p>
+            <canvas id="aa" width="80" height="80"></canvas>
+            <br>
+        <button type="button" onclick="paratempo()" id="botao_tempo">Parar Tempo</button>
+        <button type="button" onclick="reiniciar()" id="botao">Reiniciar</button>
+        <br>
+        <button type="button" onclick="mudar()" id="botao_tabuleiro">Muda Tabuleiro</button>
+        <button type="button" onclick="location.href = 'versus.html' " id="botao_versus">Modo Versus</button>
+        </div>
+        
+    <!--	<audio src="tema_do_jogo.mp3" controls autoplay loop></audio>-->
+    <div class="box botoes">
+        <h3> COMO JOGAR</h3>
+        <p>
+            •	⬆️ (seta para cima): A peça se moverá um quadrado para cima<br>
+            •	⬇️ (seta para baixo): A peça irá rodar 90° em sentido anti-horário<br>
+            •	➡️ (seta para direita): A peça se moverá um quadrado para a direita <br>
+            •	⬅️ (seta para esquerda): A peça se moverá um quadrado para a esquerda<br>
+            •	SPACE: A peça irá subir até o fim<br>
+        </p>
+
+
+
+    </div>
+    
+   
+    <div class="box rank"> 
+        <h3> Maiores Pontuações</h3>
+        <p id="show"></p>
+         
+    </div>
+
+    <div class="box jogo">
+        <div id="pontuacao"> 0</div> 
+    <canvas id="tetris" width="200" height="400"></canvas>
+    </div>
+</div>
+<script src="tetris.js"></script>
+</body>
+
+
+
+
+
+</html>
