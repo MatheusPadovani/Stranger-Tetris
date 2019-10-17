@@ -8,21 +8,37 @@ pontos possíveis, provenientes de encher uma linha do tabuleiro.
 
 COMO JOGAR
 As teclas de ação no MODO SINGLE PLAYER:  
+
 ➡️ (seta para direita): A peça se moverá um quadrado para a direita
+
 ⬅️ (seta para esquerda): A peça se moverá um quadrado para a esquerda
+
 ⬆️ (seta para cima): A peça se moverá um quadrado para cima
+
 ⬇️ (seta para baixo): A peça irá rodar 90° em sentido anti-horário
+
 SPACE: A peça irá subir até o fim
+
 As teclas de ação no MODO VERSUS:  
+
 Player 1: 
+
 ➡️ (seta para direita): A peça se moverá um quadrado para a direita
+
 ⬅️ (seta para esquerda): A peça se moverá um quadrado para a esquerda
+
 ⬆️ (seta para cima): A peça se moverá um quadrado para cima
+
 ⬇️ (seta para baixo): A peça irá rodar 90° em sentido horário
+
 Player 2: 
+
 D: A peça se moverá um quadrado para a direita
+
 A: A peça se moverá um quadrado para a esquerda
+
 W: A peça se moverá um quadrado para cima
+
 S: A peça irá rodar 90° em sentido horário
 
 
